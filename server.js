@@ -21,7 +21,8 @@ app.locals.tuncatePost=truncatePost;
 //configure ejs
 app.set("view engine", "ejs");
 //server static files
-app.use(express.static(__dirname, +"/public"));
+app.use(express.static(__dirname, +"/views"));
+
 //routes
 app.use(express.json());
 app.use(express.urlencoded({ extended: true })); //pass form data
