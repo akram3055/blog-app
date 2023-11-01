@@ -6,14 +6,15 @@ nav {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 200px;
+    height: 250px;
     
     
   }
+
   
   nav img {
-    width: 100px;
-    margin: 4px;
+    width: 50px;
+    margin: 2px;
   }
   
   nav ul {
@@ -26,6 +27,7 @@ nav {
   }
   nav ul li {
     padding: 3px;
+    margin: 2px;
   }
   nav ul li a {
     text-decoration: none;
@@ -39,6 +41,7 @@ nav {
     border-radius: 5px;
     font-size: 1.2rem;
     cursor: pointer;
+    margin: 3px;
   }
   /* Mobile first responsive design */
 @media (min-width: 675px) {
