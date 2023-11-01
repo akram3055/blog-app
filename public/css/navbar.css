@@ -6,7 +6,8 @@ nav {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 80px;
+    height: 200px;
+    
     
   }
   
@@ -47,6 +48,7 @@ nav {
     nav {
       flex-direction: row;
       justify-content: space-between;
+      height: 70px;
     }
     nav ul {
       flex-direction: row;
