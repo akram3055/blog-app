@@ -48,7 +48,7 @@ userRoutes.get("/update-user-password", (req, res) => {
 });
 
 //post
-userRoutes.post("/register",  registerCtrl);
+userRoutes.post("/register",  upload.single("profile"), registerCtrl);
 
 userRoutes.post("/login", loginCtrl);
 
